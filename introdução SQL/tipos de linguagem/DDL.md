@@ -12,7 +12,7 @@
 
 ## Criando Objetos (CREATE)
 
-- `CREATE DATABASE Sales`; - Para começar um novo projeto, primeiro criamos um contêiner para nossas tabelas.
+- `CREATE DATABASE Sales;` - Para começar um novo projeto, primeiro criamos um contêiner para nossas tabelas.
 - `CREATE TABLE` - Ao criar uma tabela, devemos definir as Colunas e seus Tipos de Dados associados.
 
 ```sql
