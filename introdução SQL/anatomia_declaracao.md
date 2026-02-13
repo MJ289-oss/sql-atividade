@@ -2,12 +2,12 @@
 
 - Uma instrução SQL é composta de elementos específicos que dizem ao banco como processar o pedido:
 Comentários (--) – Documentam o código.
-    - Palavras-chave – Reservadas e com significado especial.
-    - Cláusulas – Blocos que constroem a instrução.
-    - Funções – Ferramentas internas que transformam dados.
-    - Identificadores – Nomes de objetos de banco como tabelas ou colunas.
-    - Operadores – Usados para comparações.
-    - Literais – Valores constantes ou strings. 
+    - **Palavras-chave** – Reservadas e com significado especial.
+    - **Cláusulas** – Blocos que constroem a instrução.
+    - **Funções** – Ferramentas internas que transformam dados.
+    - **Identificadores** – Nomes de objetos de banco como tabelas ou colunas.
+    - **Operadores** – Usados para comparações.
+    - **Literais** – Valores constantes ou strings. 
 
 
 ## Estrutura Básica de Consulta

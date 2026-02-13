@@ -1,27 +1,27 @@
 # DML - Linguagem de Manipulação de Dados
 
-- Nós usamos DML (Data Manipulation Language) para alterar os dados reais armazenados dentro de nossas tabelas. Enquanto a DDL define o "recipiente", a DML nos permite gerenciar o conteúdo interno.
+- Nós usamos **DML** (Data Manipulation Language) para alterar os dados reais armazenados dentro de nossas tabelas. Enquanto a **DDL** define o "recipiente", a **DML** nos permite gerenciar o conteúdo interno.
 
 
 ## Operações Principais de DML
 
 - Nós contamos com três comandos primários para manipular nossos dados:
-    - INSERT: Nós usamos para adicionar novas linhas de dados em uma tabela.
-    - UPDATE: Nós usamos para modificar informações existentes dentro de uma tabela.
-    - DELETE: Nós usamos para remover registros específicos de uma tabela.
+    - **INSERT**: Nós usamos para adicionar novas linhas de dados em uma tabela.
+    - **UPDATE**: Nós usamos para modificar informações existentes dentro de uma tabela.
+    - **DELETE**: Nós usamos para remover registros específicos de uma tabela.
 
 
 ## Adicionando Dados (INSERT)
 
  - Quando queremos popular nossas tabelas, temos dois métodos principais para inserir dados:
-    - Método 1: Entrada Manual (VALUES)
+    - **Método 1**: Entrada Manual (VALUES)
         - Nós especificamos manualmente os valores que queremos adicionar a colunas específicas.
         ```sql 
         INSERT INTO Products (ProductID, ProductName, Price)
         VALUES (1, 'Laptop', 1200.00);
         ```
 
-    - Método 2: INSERT usando SELECT
+    - **Método 2**: INSERT usando SELECT
         - Nós também podemos inserir dados em uma tabela de destino consultando-os de uma tabela de origem.
         ```sql 
         INSERT INTO TargetTable

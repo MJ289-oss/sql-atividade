@@ -1,19 +1,19 @@
 # DDL - Linguagem de Definição de Dados
 
-- DDL significa Data Definition Language (Linguagem de Definição de Dados).
-- Enquanto o DQL é usado para consultar dados e o DML é usado para manipular dados, o DDL é usado para definir a estrutura dos nossos objetos de dados (o "esqueleto" do banco de dados).
+- **DDL** significa Data Definition Language (Linguagem de Definição de Dados).
+- Enquanto o **DQL** é usado para consultar dados e o **DML** é usado para manipular dados, o **DDL** é usado para definir a estrutura dos nossos objetos de dados (o "esqueleto" do banco de dados).
 
 ## Operações Principais de DDL
 
-- O DDL permite que você gerencie a planta estrutural (blueprint) do seu banco de dados através de três ações principais:
-  - CREATE - Usado para construir novos objetos (Bancos de Dados ou Tabelas) do zero.
-  - ALTER - Usado para modificar a estrutura de um objeto existente (ex: adicionar uma nova coluna a uma tabela).
-  - DROP - Usado para excluir permanentemente um objeto e todos os seus dados.
+- O **DDL** permite que você gerencie a planta estrutural (blueprint) do seu banco de dados através de três ações principais:
+  - **CREATE** - Usado para construir novos objetos (Bancos de Dados ou Tabelas) do zero.
+  - **ALTER** - Usado para modificar a estrutura de um objeto existente (ex: adicionar uma nova coluna a uma tabela).
+  - **DROP** - Usado para excluir permanentemente um objeto e todos os seus dados.
 
 ## Criando Objetos (CREATE)
 
-- CREATE DATABASE Sales; - Para começar um novo projeto, primeiro criamos um contêiner para nossas tabelas.
-- CREATE TABLE - Ao criar uma tabela, devemos definir as Colunas e seus Tipos de Dados associados.
+- `CREATE DATABASE Sales`; - Para começar um novo projeto, primeiro criamos um contêiner para nossas tabelas.
+- `CREATE TABLE` - Ao criar uma tabela, devemos definir as Colunas e seus Tipos de Dados associados.
 
 ```sql
 CREATE TABLE Products (
