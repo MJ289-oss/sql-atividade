@@ -48,4 +48,4 @@ A execução padrão lógica é: 
 
 ---
 
-[Página anterior](o_que_e.md)
+[Página anterior](tipos_de_comandos.md)
