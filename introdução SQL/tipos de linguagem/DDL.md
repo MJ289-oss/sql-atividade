@@ -25,7 +25,7 @@ CREATE TABLE Products (
 
 ## Modificando Objetos (ALTER)
 
-- Se os requisitos mudarem, usamos o comando ALTER para atualizar a estrutura sem excluir a tabela.
+- Se os requisitos mudarem, usamos o comando `ALTER` para atualizar a estrutura sem excluir a tabela.
 - Adicionar uma Coluna
 ```sql
 ALTER TABLE Products
@@ -39,7 +39,7 @@ DROP COLUMN Price;
 
 ## Excluindo Objetos (DROP)
 
-- O comando DROP é destrutivo. Ele remove toda a estrutura e todos os registros armazenados nela.
+- O comando `DROP` é destrutivo. Ele remove toda a estrutura e todos os registros armazenados nela.
 ```sql
 DROP TABLE Products;
 ```

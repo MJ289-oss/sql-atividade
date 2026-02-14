@@ -32,7 +32,7 @@
 
 ## Modificando Dados (UPDATE)
 
-- Quando precisamos editar registros existentes, usamos a instrução UPDATE. Devemos ser muito cuidadosos ao incluir uma cláusula WHERE; caso contrário, atualizaremos todas as linhas da tabela.
+- Quando precisamos editar registros existentes, usamos a instrução `UPDATE`. Devemos ser muito cuidadosos ao incluir uma cláusula `WHERE`; caso contrário, atualizaremos todas as linhas da tabela.
 
 ```sql
 UPDATE table_name
@@ -45,7 +45,7 @@ WHERE <condition>;
 
 ## Removendo Dados (DELETE)
 
-- Quando os dados não são mais necessários, usamos o comando DELETE. De forma semelhante ao update, usamos uma cláusula WHERE para filtrar linhas específicas.
+- Quando os dados não são mais necessários, usamos o comando `DELETE`. De forma semelhante ao update, usamos uma cláusula `WHERE` para filtrar linhas específicas.
 
 ```sql
 DELETE FROM table_name
