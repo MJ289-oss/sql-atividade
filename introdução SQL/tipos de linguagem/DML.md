@@ -40,7 +40,7 @@ SET column1 = value1, column2 = value2
 WHERE <condition>;
 ``` 
 
-> Observação: Sempre use WHERE para evitar atualizações em massa não intencionais.
+> Observação: Sempre use `WHERE` para evitar atualizações em massa não intencionais.
 
 
 ## Removendo Dados (DELETE)
